@@ -1,0 +1,124 @@
+ababa 
+245
+baba
+2346
+12345
+-----------------------
+1235
+23457 --- benefits of para
+bbaa
+aabab
+125
+listenening
+skils
+
+
+1.salesand 
+2.clinical 
+3.good practices (non-complicance)
+4.csv consistent repeatable manaer
+5.21 CFR Part 11 (regulation for electronic records)
+6.ema
+7.gml -- sales and marketing 
+8.product quality and product cost 
+9.biologics , medical devices and pharama
+10.fda(food and drug administration)
+----------------Therapeutic Goods Administratio
+1.data security
+2.
+binding rules -- regulations 
+
+
+----------------
+1.dosage of drug (reasearch and development ) 
+2.biologics (living orgs)*
+3.gcp -->(pre clinical process )
+4.non - compliance (regulations )*
+5.true *
+6.211,210*
+7.regulatory body -- tga*
+8.fda*
+9.part 11*
+10.service delivery , advisory services 
+score 70%
+----------------------
+1.data security *
+2.ema*
+3.biologics *
+4.glp --->(pre clinical process )
+5.regulatory guidelinese for gmp(sales and marketing )
+6.legal punishment *
+7.industry ---> service providers 
+8.210,211*
+9.dosage of drug (sales and marketing )may be correct 
+10.product quality and patient safety may be correct 
+score (50%)
+------------------
+1.true
+2.regulatory guidelinese for gmp( manufacturing  )
+3.legal
+4.product quality and patient marketing 
+5.dosage of drug (manufacturing ) 
+6.csv
+7.data security
+8.good distrubution practised ---- pre clinical process
+9.sevice providers 
+10.biologics
+score 50 %
+-----------------
+1.
+2.
+3.
+4.
+5.gdp --->(pre clinical process )* is correct 
+6.
+7.advisory process support 
+8.dosage of drug (manufacturing ) 
+9.
+10.
+----------------
+1.
+2.
+3.
+4.
+5.gmp --->(pre clinical process )
+6.
+7.advisory process support 
+8.dosage of drug (manufacturing ) is not correct 
+9.gmp -- post market 
+10.product quality and product cost 
+-------------------------
+
+2.
+3.
+4.
+5.gdp --->(pre clinical process )* is correct 
+6.
+7.advisory process support 
+8.dosage of drug (research) 
+9.
+10.
+---------------------------
+1gmp -->sales marketing may be correct is wrong 
+2.
+3.
+4.
+5.gdp --->(pre clinical process )* is correct 
+6.
+7.advisory process support service delivery  may be correct
+8.
+9.
+10.
+-------
+advisory process support service delivery  is be correct**** 
+
+1.
+2.
+3.
+4.
+5.
+6.product cost and marketing and
+
+---------------
+gmp -- sales and markting 
+

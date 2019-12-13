@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-12-10 21:45:12">
+<sys_gauge action="INSERT_OR_UPDATE">
+<active>true</active>
+<aggregate>MEAN</aggregate>
+<attributes/>
+<fieldname/>
+<group_field/>
+<lower_limit/>
+<name>Get Average Tickets per user</name>
+<order>10</order>
+<other_threshold>-2</other_threshold>
+<parent display_value=""/>
+<query table="incident"/>
+<report display_value=""/>
+<roles/>
+<stack_field/>
+<sys_class_name>sys_gauge</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-10 21:08:57</sys_created_on>
+<sys_id>0bb0fac7dba540108844e1bb4b961901</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_name>Get Average Tickets per user</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_gauge_0bb0fac7dba540108844e1bb4b961901</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-10 21:12:24</sys_updated_on>
+<tablename>incident</tablename>
+<title/>
+<type>counts</type>
+<upper_limit/>
+<url/>
+<view/>
+</sys_gauge>
+</unload>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-12-10 21:45:22">
+<sys_gauge_counts action="INSERT_OR_UPDATE">
+<gauge_id display_value="Get Average Tickets per user">0bb0fac7dba540108844e1bb4b961901</gauge_id>
+<image/>
+<name>Average</name>
+<omit_line>false</omit_line>
+<order>10</order>
+<override_style/>
+<query table="incident">active=true^EQ<item goto="false" or="false" field="active" endquery="false" value="true" operator="=" newquery="false"/>
+<item goto="false" or="false" field="" endquery="true" value="" operator="=" newquery="false"/>
+</query>
+<script>getCount();
+
+function getCount(){
+var count =new GlideAggregate('incident');
+count.addAggregate('COUNT');
+count.query();
+var incidents =0;
+if(count.next()) 
+   incidents = count.getAggregate('COUNT');
+
+var gr = new GlideAggregate('incident');
+gr.addActiveQuery();
+gr.addQuery('assigned_to','!=','');
+gr.groupBy('assigned_to');
+gr.query();
+var count=0;
+if (gr.next()){
+count = gr.getRowCount();  
+}
+
+var fnl = Number(incidents/count).toFixed(2);
+return fnl;
+}</script>
+<short_description/>
+<sys_class_name>sys_gauge_counts</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-10 21:10:57</sys_created_on>
+<sys_id>07917a4bdba540108844e1bb4b9619a1</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Average</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_gauge_counts_07917a4bdba540108844e1bb4b9619a1</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-10 21:39:21</sys_updated_on>
+<tablename>incident</tablename>
+<use_script>true</use_script>
+</sys_gauge_counts>
+</unload>
